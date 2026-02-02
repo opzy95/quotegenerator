@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+/* Main box */
+.container {
+  width: 500px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+/* Quote box */
+#quote-display {
+  font-size: 1.5em;
+  font-family: 'Georgia', serif;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-left: 5px solid #4CAF50;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+/* Button at bottom */
+#quote-btn {
+  padding: 12px 25px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#quote-btn:hover {
+  background-color: #43a047;
+}
